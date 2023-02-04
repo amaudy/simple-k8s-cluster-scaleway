@@ -1,0 +1,5 @@
+access_key = ""
+secret_key = ""
+region     = "nl-ams"
+zone       = "nl-ams-1"
+project_id = ""
