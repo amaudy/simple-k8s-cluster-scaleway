@@ -6,9 +6,9 @@ resource "scaleway_k8s_cluster" "rose" {
 
 resource "scaleway_k8s_pool" "john" {
   cluster_id = scaleway_k8s_cluster.rose.id
-  name       = "jcluster"
-  node_type  = "DEV1-M"
-  size       = 5
+  name       = var.cluster_name
+  node_type  = var.worker_node_size
+  size       = var.total_worker_node
 }
 
 output "kubeconfig" {
