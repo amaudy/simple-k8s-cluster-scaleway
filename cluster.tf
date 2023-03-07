@@ -53,6 +53,7 @@ resource "helm_release" "nginx_ingress" {
     name  = "controller.config.use-proxy-protocol"
     value = "true"
   }
+
   set {
     name  = "controller.service.annotations.service\\.beta\\.kubernetes\\.io/scw-loadbalancer-proxy-protocol-v2"
     value = "true"
