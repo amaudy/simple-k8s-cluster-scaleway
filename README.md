@@ -22,6 +22,6 @@ Project id -> https://console.scaleway.com/project/settings
 ## KUBECONFIG
 
 1. `terraform output --raw kubeconfig > kubeconfig.config`
-2. chmod 0400 kubeconfig.config
+2. `chmod 0400 kubeconfig.config`
 3. `export KUBECONFIG=kubeconfig.config`
 4. Now you ready to use `kubectl`
