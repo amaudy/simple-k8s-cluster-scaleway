@@ -6,6 +6,18 @@
 
 ## Scaleway's Regions and Zones
 
+| Regions | Zones    |
+|---------|----------|
+| fr-par  |          |
+|         | fr-par-1 |
+|         | fr-par-2 |
+|         | fr-par-3 |
+| nl-ams  |          |
+|         | nl-ams-1 |
+|         | nl-ams-2 |
+| pl-waw  |          |
+|         | pl-waw-1 |
+
 https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/regions_and_zones
 
 Access key and Secret key -> https://console.scaleway.com/project/credentials
