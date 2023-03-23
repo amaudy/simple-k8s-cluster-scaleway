@@ -20,9 +20,13 @@
 
 https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/regions_and_zones
 
-Access key and Secret key -> https://console.scaleway.com/project/credentials
+### Access key and Secret key
 
-Project id -> https://console.scaleway.com/project/settings
+Visit https://console.scaleway.com/project/credentials
+
+### Project id 
+
+Visit https://console.scaleway.com/project/settings
 
 ## How to use?
 
