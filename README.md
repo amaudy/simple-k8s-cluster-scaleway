@@ -19,9 +19,9 @@ Project id -> https://console.scaleway.com/project/settings
 3. run `terraform init` (Only first time)
 4. run `terraform apply --auto-approve`
 
-After succesfully create cluster. You can get KUBECONFIG from `terraform output --raw kubeconfig > kubeconfig.config`
+## KUBECONFIG
 
-Then `export KUBECONFIG=kubeconfig.config`
-
-After this you can use `kubectl` as normal operation.
-
+1. `terraform output --raw kubeconfig > kubeconfig.config`
+2. chmod 0400 kubeconfig.config
+3. `export KUBECONFIG=kubeconfig.config`
+4. Now you ready to use `kubectl`
