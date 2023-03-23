@@ -4,7 +4,7 @@
 * This is design for development or testing
 * Terraform local storage but you can change later per requirement.
 
-## Regions and Zones
+## Scaleway's Regions and Zones
 
 https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/regions_and_zones
 
