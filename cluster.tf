@@ -1,6 +1,6 @@
 resource "scaleway_k8s_cluster" "rose" {
   name    = "rose"
-  version = "1.24.3"
+  version = "1.27.2"
   cni     = "cilium"
 }
 
